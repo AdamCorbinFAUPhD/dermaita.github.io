@@ -16,10 +16,15 @@ We use unlabeled images and assume that segmentation masks are not available. We
 
 
 
+![examples](large_set_of_examples.PNG)
 
 Figure 1: Examples of the four proposed approaches (images are from the ISIC 2016 dataset): (a) original image; (b) masked image (used as ground truth for computation of performance metrics); (c) center cropped; (d) structured patches; and (e) random patches. Each blue square in parts (c)-(e) is considered a patch of fixed size. 
-Results
+
+### Results
+
 Table 1 shows experimental results. The Center Cropped and Structured Patches were the top performers across all datasets. They have both performed better than the baseline (full image) or random patches, as desired. 
+
+![results_table](metrics_results.PNG)
 
 Table 1: Experimental results using Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) as error metrics: lower values mean better performance. The Center Cropped strategy performed best for the ISIC 2016 dataset whereas Structured Patches performed best for ISIC 2017. For the ISIC 2018 dataset both Center Copped and Structure Patches performed well, depending on the performance metric used. 
 
@@ -32,12 +37,21 @@ Fairness, Machine Learning, Artificial Intelligence, Dermatology, Image Analysis
 
 
 ## Poster
+[Poster link](https://github.com/AdamCorbinFAUPhD/dermaita.github.io/blob/gh-pages/strategies_for_computing_fitzpatrick_skin_type_poster_SIIM_2022.pptx)
 
 ### References
+1. Groh, M., Harris, C., Soenksen, L., Lau, F., Han, R., Kim, A.,Koochek, A., Badri, O.: Evaluating Deep Neural Networks Trained on Clinical Images in Dermatology with the Fitzpatrick 17k Dataset. arXiv:2104.09957 [cs] (2021). 
+1. Wu, Y., Tanaka, T., Akimoto, M.: Utilization of Individual Typology Angle (ITA) and Hue Angle in the Measurement of Skin Color on Images. Bioimaging Society, 8 (2020)
+1. Gutman, D., Codella, N.C.F., Celebi, E., Helba, B., Marchetti, M., Mishra, N., Halpern, A.: Skin Lesion Analysis toward Melanoma Detection: A Challenge at the International Symposium on Biomedical Imaging (ISBI) 2016, hosted by the  International Skin Imaging Collaboration (ISIC). arXiv:1605.01397 [cs] (2016)
+1. Codella, N.C.F., Gutman, D., Celebi, M.E., Helba, B., Marchetti, M.A., Dusza, S.W., Kalloo, A., Liopyris, K., Mishra, N., Kittler, H., Halpern, A.: Skin Lesion Analysis Toward Melanoma Detection: A Challenge at the 2017 International Symposium on Biomedical Imaging (ISBI), Hosted by the International Skin Imaging Collaboration (ISIC). arXiv:1710.05006 [cs] (2018)
+1. Codella, N., Rotemberg, V., Tschandl, P., Celebi, M.E., Dusza, S., Gutman, D., Helba, B., Kalloo, A., Liopyris, K., Marchetti, M., Kittler, H.,Halpern, A.: Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC). arXiv:1902.03368 [cs] (2019).
+
 
 ## Source code
+
+https://github.com/AdamCorbinFAUPhD/derm_ita
 
 ## Contact info
 
 - Adam Corbin acorbin3@fau.edu  
-- Dr. Oge Marques 
+- Dr. Oge Marques omarques@fau.edu
