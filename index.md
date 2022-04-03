@@ -49,9 +49,9 @@ Fairness, Machine Learning, Artificial Intelligence, Dermatology, Image Analysis
 
 ## Source code
 
-https://github.com/AdamCorbinFAUPhD/derm_ita
+[https://github.com/AdamCorbinFAUPhD/derm_ita](https://github.com/AdamCorbinFAUPhD/derm_ita)
 
 ## Contact info
 
-- Adam Corbin acorbin3@fau.edu  
-- Dr. Oge Marques omarques@fau.edu
+- Adam Corbin [acorbin3@fau.edu](mailto:acorbin3@fau.edu)
+- Dr. Oge Marques [omarques@fau.edu](mailto:omarques@fau.edu)
